@@ -15,6 +15,7 @@ namespace API.Controllers
         private readonly DataContext _context;
         public UsersController(DataContext context)
         {
+            var i = 2;
             _context = context;
 
         }
